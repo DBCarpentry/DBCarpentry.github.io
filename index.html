@@ -61,24 +61,24 @@ title: Index
   background-image: url(assets/img/DAN_cropped.png); /* The image used */
   background-color: #f8f9fa; /* Used if the image is unavailable */
   height: 100vh; /* You must set a specified height */
-  background-size: 25vh;
+  /*background-size: 25vh;*/
   background-repeat: no-repeat; /* Do not repeat the image */
    /* Resize the background image to cover the entire container */
 
-   @media only screen and (min-width: 681px) {
-    @viewport {
+   @media only screen and (min-width: 480px) {
+
      background-size: 100vh;
      background-position: right; /* right the image */
-    }
+
    }
 
-   @media only screen and (max-width: 680px) {
-    @viewport {
+   @media only screen and (max-width: 479px) {
+
      /* That will set the element to 100% of the viewport's width */
      background-size: 20vh;
      background-position: center; /* Center the image */
     }
-   }
+
 }
 </style>
 <main>
