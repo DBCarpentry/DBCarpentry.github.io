@@ -37,28 +37,15 @@ title: Index
           <path d="M7 13.5h2V16H7v-2.5z"/>
         </svg>
       </a>
-
   </header>
-  <style>
-    .hero-image {
-    background-image: url(assets/img/DAN_cropped.png); /* The image used */
-    background-color: #f8f9fa; /* Used if the image is unavailable */
-    height: 100vh; /* You must set a specified height */
-    /*background-size: 25vh;*/
-    background-repeat: no-repeat; /* Do not repeat the image */
-     /* Resize the background image to cover the entire container */
-     background-size: 45vh;
-     background-position: right bottom; /* right the image */
-
-  }
-  </style>
   <main>
+    <!--hero header-->
     <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light hero-image">
       <div class="col-md-5 p-lg-5 mx-auto my-5" style="height: 100vh">
         <div class="container">
         <h1>Dan Barrett Carpentry</h1>
         <p>Insert your catch phrase here.</p>
-
+    <!--down arrow-->
     </div>
       <a href="#Story" style="text-decoration: none; position: relative; left: -25%">
         <svg xmlns="http://www.w3.org/2000/svg" width="12%" height="12%" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
@@ -67,65 +54,53 @@ title: Index
         </svg>
       </a>
     </div>
-    <!--div class="product-device shadow-sm d-none d-md-block"></div>
-    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div-->
   </div>
 
   <!-- about me -->
   <div class="bg-dark overflow-hidden p-3 p-md-5 m-md-3 text-center" id="Story" style="height: 100vh; color: #f8f9fa">
     <div class="my-3 p-3">
-      <h2 class="display-5">My Story</h2>
+      <h2>My Story</h2>
       <hr></hr>
-      <!--img src="assets/img/DAN_cropped.png" class="rounded-0" width="250vw" height="250vh" align=”right”-->
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus blandit est eu mollis. Suspendisse potenti.
         Aliquam eu tellus tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus blandit est eu mollis. Suspendisse potenti. Aliquam eu tellus tortor.
         Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </P>
       <p> - Dan </p>
     </div>
-    <!--div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div-->
   </div>
 
   <!-- gallery -->
   <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light"  style="height: 100vh">
-      <h2 class="display-5">Gallery</h2>
+      <h2>Gallery</h2>
       <hr></hr>
+      <!--photo carousel-->
       <div id="myCarousel" class="carousel slide" data-interval="true">
         <div class="carousel-inner">
-          <!--slide1-->
-          <div class="carousel-item active" id="im1">
-
-                  <img src="assets/img/1.jpg"  width="400vmin" height="400vmin">
-
+        <!--slide1-->
+        <div class="carousel-item active" id="im1">
+          <img src="assets/img/1.jpg"  width="400vmin" height="400vmin">
         </div>
-
         <!--slide2-->
         <div class="carousel-item" id="im2">
-
-                <img src="assets/img/2.jpg" width="400vmin" height="400vmin">
-
+          <img src="assets/img/2.jpg" width="400vmin" height="400vmin">
         </div>
-
-        <!--slide3 photos-->
+        <!--slide3-->
         <div class="carousel-item" id="im3">
-
-                <img src="assets/img/3.jpg" width="400vmin" height="400vmin">
-
-          </div>
+          <img src="assets/img/3.jpg" width="400vmin" height="400vmin">
         </div>
-          <a class="carousel-control-prev" href="#" data-target="#myCarousel" data-slide-to="previous">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden"></span>
-          </a>
-          <!--a class="carousel-control-next" href="#" data-target="#myCarousel" data-slide-to="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden"></span>
-          </a-->
       </div>
-
-      <!--div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div-->
+      <!--carousel button-->
+      <a class="carousel-control-prev" href="#" data-target="#myCarousel" data-slide-to="previous">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </a>
+      <!--a class="carousel-control-next" href="#" data-target="#myCarousel" data-slide-to="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </a-->
+      </div>
     </div>
-
+<!--footer-->
 <footer class="container-fluid py-5 bg-dark" style="color: #f8f9fa;">
   <!--contact-->
       <h2 class="display-5">Contact</h2>
@@ -151,6 +126,5 @@ title: Index
            <path fill-rule="evenodd" d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
          </svg>
       FB page</h2>
-
 </footer>
 </main>
